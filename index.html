@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/img/voyage-logo.png" />
+    <title>Voyage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      main .img-box {
+        background-image: url(./assets/img/karim-manjra-desert-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 100%;
+        height: 90vh;
+      }
+      main .img-box button {
+        font-size: 20px;
+        transition: font-size 1s ease;
+      }
+      main .img-box button:hover {
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/voyage-logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="./saldi.html">Saldi</a>
+              <a class="nav-link" href="#">Welcome Summer</a>
+              <a class="nav-link" href="#">Last Minute</a>
+              <a class="nav-link" href="#">Recensioni</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col img-box d-flex align-items-center justify-content-center flex-column">
+            <h2>
+              <img src="./assets/img/voyage-logo.png" alt="logo" width="30" class="rounded-circle" />
+              Reencourage in a <span class="text-success-emphasis">Voyage</span>
+            </h2>
+            <p class=""><em>With our Agency you could travel in any place you ever wish</em></p>
+            <button class="bg-primary-subtle text-light border-0"><strong>Book Now</strong></button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
